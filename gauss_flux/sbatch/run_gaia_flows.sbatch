@@ -10,7 +10,7 @@
 #SBATCH --array=0-15
 #SBATCH --output=/expanse/lustre/projects/del126/yelgharably/CISC889/logs/%x_%A_%a.out
 #SBATCH --error=/expanse/lustre/projects/del126/yelgharably/CISC889/logs/%x_%A_%a.err
-#SBATCH --mail-user=YOUR_EMAIL
+#SBATCH --mail-user=yelghara@udel.edu
 #SBATCH --mail-type=ALL
 
 # One array task = one normalizing flow on the Gaia sample (also writes f, df/dq, df/dp at 100k stars).

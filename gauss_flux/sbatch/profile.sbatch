@@ -9,7 +9,7 @@
 #SBATCH --time=00:20:00
 #SBATCH --output=/expanse/lustre/projects/del126/yelgharably/CISC889/logs/%x_%j.out
 #SBATCH --error=/expanse/lustre/projects/del126/yelgharably/CISC889/logs/%x_%j.err
-#SBATCH --mail-user=YOUR_EMAIL
+#SBATCH --mail-user=yelghara@udel.edu
 #SBATCH --mail-type=ALL
 
 # Diagnoses the ~4.4 s/step seen in check_env (expected ~0.1 s). Run BEFORE run_grid.sbatch.

@@ -9,7 +9,7 @@
 #SBATCH --time=00:20:00
 #SBATCH --output=/expanse/lustre/projects/del126/yelgharably/CISC889/logs/%x_%j.out
 #SBATCH --error=/expanse/lustre/projects/del126/yelgharably/CISC889/logs/%x_%j.err
-#SBATCH --mail-user=YOUR_EMAIL
+#SBATCH --mail-user=yelghara@udel.edu
 #SBATCH --mail-type=ALL
 
 # Run this FIRST. Checks the python env, runs the unit tests, and trains a 30-step smoke task.
